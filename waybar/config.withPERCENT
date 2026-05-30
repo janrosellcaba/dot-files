@@ -51,7 +51,7 @@
 
   "cpu": {
     "interval": 2,
-    "format": " {usage}",
+    "format": " {usage}%",
     "tooltip": true
   },
 
@@ -75,13 +75,13 @@
   },
 
   "backlight": {
-    "format": "{percent} {icon}",
+    "format": "{percent}% {icon}",
     "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
 
   "battery": {
     "states": { "warning": 30, "critical": 15 },
-    "format": "{capacity} {icon}",
+    "format": "{capacity}% {icon}",
     "format-icons": ["", "", "", "", ""]
   },
 
@@ -93,9 +93,9 @@
   },
 
   "pulseaudio": {
-    "format": "{volume} {icon}",
-    "format-bluetooth": "{volume} {icon}",
-    "format-muted": "",
+    "format": "{volume}% {icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-muted": "Muted ",
     "format-icons": {
       "headphone": "",
       "hands-free": "",

@@ -45,7 +45,7 @@ _comps=(
 'ansible-pull' '_ansible'
 'ansible-vault' '_ansible'
 'ant' '_ant'
-'antigravity' '_antigravity'
+'antigravity-ide' '_antigravity-ide'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
@@ -1938,7 +1938,7 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _afew _age _alacritty _antigravity _archlinux-java \
+autoload -Uz _afew _age _alacritty _antigravity-ide _archlinux-java \
             _atach _augmatch _augparse _augprint _avdmanager \
             _bento4 _bitcoin-cli _blkid _bootctl _bower \
             _bundle _busctl _bwrap _cap _cargo \
