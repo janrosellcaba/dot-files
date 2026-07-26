@@ -1,0 +1,29 @@
+[general]
+import = []
+
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+opacity = 0.9
+blur = true
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[selection]
+# This ensures that as soon as you select text, it's ready to be pasted
+save_to_clipboard = true
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[colors.primary]
+background = "#1a1b26"
+foreground = "#c0caf5"
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }

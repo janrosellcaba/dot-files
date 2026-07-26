@@ -1,15 +1,2 @@
-# ignore everything
-/*
-
-# except
-!/hypr/
-!/fastfetch/
-!/zsh/
-!/waybar/
-!/mako/
-!/nwg-displays/
-!/yay/
-
-!.gitignore
-
-
+# Ignore local/temporary build files or secrets
+*.log

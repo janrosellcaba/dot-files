@@ -41,6 +41,8 @@ alias fl='ssh emh@192.168.1.100'
 alias upgrade='topgrade --cleanup'
 alias sz='source ~/.config/zsh/.zshrc'
 alias vz='nvim ~/.config/zsh/.zshrc'
+alias cv='ssh emh@100.105.33.70'
+alias cvr='ssh root@100.105.33.70'
 
 #
 # relax
@@ -66,3 +68,10 @@ fi
 
 export JAVA_HOME=/usr/lib/jvm/default
 export PATH=$JAVA_HOME/bin:$PATH
+
+. "$HOME/.local/share/../bin/env"
+
+# bun completions
+[ -s "/home/jan/.bun/_bun" ] && source "/home/jan/.bun/_bun"
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

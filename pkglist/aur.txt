@@ -1,0 +1,12 @@
+antigravity
+antigravity-ide
+apple_cursor
+cbonsai
+forticlient-vpn
+google-chrome
+hyprswitch
+pipes.sh
+topgrade
+ttf-ms-fonts
+visual-studio-code-bin
+yay-bin
